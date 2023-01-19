@@ -1,0 +1,60 @@
+body {
+    background-image:url(CartoonBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header {
+	background-color: white;
+}
+
+header > h1 {
+	color: #e65006;
+	text-align: center;
+	font-family: fantasy;
+}
+
+.image {
+    height:150px;
+    width:150px;
+}
+
+.container {
+    height: 750px;
+
+}
+
+.sub_con {
+    display:inline-block;
+    width:19rem;
+    margin: 2px;
+}
+
+.rocket {
+    display:flex;
+    justify-content:center;
+}
+
+.button {
+	background:linear-gradient(to bottom, #c74545 5%, #4c2abd 100%);
+	background-color:#c74545;
+	border-radius:24px;
+	border:10px solid #f20505;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:28px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #4c2abd 5%, #c74545 100%);
+	background-color:#4c2abd;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
